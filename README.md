@@ -1,7 +1,7 @@
 <h1 align="center">Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection</h1>
 
 <div align="center">
-**Xinbin Yuan, ZhaoHui Zheng, Yuxuan Li, Xialei Liu, Li Liu, Xiang Li, Qibin Hou*, Ming-Ming Cheng**
+<b>Xinbin Yuan, ZhaoHui Zheng, Yuxuan Li, Xialei Liu, Li Liu, Xiang Li, Qibin Hou*, Ming-Ming Cheng</b>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2501.04440-red)](https://arxiv.org/abs/2501.03775)
 [![Zhihu](https://img.shields.io/badge/Zhihu-Chinese_Article-blue)](https://zhuanlan.zhihu.com/p/17342348259)
