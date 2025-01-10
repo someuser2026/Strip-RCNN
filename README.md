@@ -20,4 +20,5 @@ Xinbin Yuan, ZhaoHui Zheng, Yuxuan Li, Xialei Liu, Li Liu, Xiang Li, Qibin Hou, 
 
 
 Offical implementation of "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection"
+
 we also add our config in https://github.com/zcablii/LSKNet
