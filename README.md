@@ -1,11 +1,9 @@
-<h1 align="center">Strip-R-CNN</h1>
+<h1 align="center">Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection</h1>
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2501.04440-red)](https://arxiv.org/abs/2501.04440)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Page-blue)](https://your-github-pages-link.com)
-[![BaiduNetdisk](https://img.shields.io/badge/BaiduNetdisk-Dataset-blue)](https://your-baidu-netdisk-link.com)
-[![Zhihu](https://img.shields.io/badge/Zhihu-Chinese_Article-blue)](https://your-zhihu-article-link.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2501.04440-red)](https://arxiv.org/abs/2501.03775)
+[![Zhihu](https://img.shields.io/badge/Zhihu-Chinese_Article-blue)](https://zhuanlan.zhihu.com/p/17342348259)
 
 <p>If you find our work helpful, please consider giving us a ⭐!</p>
 
