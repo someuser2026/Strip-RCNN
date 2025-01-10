@@ -13,7 +13,8 @@
 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
-![image](https://github.com/user-attachments/assets/74eb65cf-cd50-4889-9800-b8539bb3b934)
+![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
+
 
 ![Strip-R-CNN](DotaStatis.png)
 
