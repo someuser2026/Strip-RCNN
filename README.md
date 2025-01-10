@@ -4,7 +4,7 @@
 <b>Xinbin Yuan, ZhaoHui Zheng, Yuxuan Li, Xialei Liu, Li Liu, Xiang Li, Qibin Hou*, Ming-Ming Cheng</b>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2501.04440-red)](https://arxiv.org/abs/2501.03775)
-<a href='https://zhuanlan.zhihu.com/p/17342348259'><img src='https://img.shields.io/badge/Zhihu-chinese_article-blue.svg?logo=zhihu&logoColor=white'></a>
+<a href='https://zhuanlan.zhihu.com/p/17342348259'><img src='https://img.shields.io/badge/Zhihu-blue.svg?logo=zhihu&logoColor=white'></a>
 
 <p>If you find our work helpful, please consider giving us a ⭐!</p>
 
