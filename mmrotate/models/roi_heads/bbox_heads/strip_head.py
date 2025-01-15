@@ -162,19 +162,9 @@ class StripHead_(RotatedBBoxHead):
                 branch_convs.append(
                     ConvModule(
                         conv_in_channels,
-                        conv_in_channels,
+                        self.conv_out_channels,
                         3,
                         padding=1,
-                        groups=conv_in_channels,
-                        conv_cfg=self.conv_cfg,
-                        norm_cfg=self.norm_cfg,
-                        ))
-                branch_convs.append(
-                    ConvModule(
-                        conv_in_channels,
-                        self.conv_out_channels,
-                        1,
-                        padding=0,
                         conv_cfg=self.conv_cfg,
                         norm_cfg=self.norm_cfg))       
                 branch_convs.append(
