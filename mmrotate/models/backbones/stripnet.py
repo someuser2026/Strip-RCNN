@@ -69,7 +69,7 @@ class Attention(nn.Module):
 
 
 class Block(nn.Module):
-    def __init__(self, dim, mlp_ratio=4., k1, k2, drop=0.,drop_path=0., act_layer=nn.GELU, norm_cfg=None):
+    def __init__(self, dim, mlp_ratio=4., k1=1, k2=19, drop=0.,drop_path=0., act_layer=nn.GELU, norm_cfg=None):
         super().__init__()
         if norm_cfg:
             self.norm1 = build_norm_layer(norm_cfg, dim)[1]
