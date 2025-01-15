@@ -164,7 +164,7 @@ class StripHead_(RotatedBBoxHead):
                         conv_in_channels,
                         conv_in_channels,
                         3,
-                        padding=2,
+                        padding=1,
                         groups=conv_in_channels,
                         conv_cfg=self.conv_cfg,
                         norm_cfg=self.norm_cfg,
