@@ -61,7 +61,7 @@ Imagenet 300-epoch pre-trained Strip R-CNN-T backbone: [Download](https://drive.
 Imagenet 300-epoch pre-trained Strip R-CNN-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
 
 Please note that the Exponential Moving Average (EMA) strategy was not utilized during the ImageNet pretraining stage.
-DOTA1.0
+DOTA-v1.0
 
 |                           Model                            |  mAP  | Angle | lr schd | Batch Size |                                   Configs                                    |                                                               Download                                                               |     note     |
 | :--------------------------------------------------------: | :---: | :---: | :-----: | :--------: | :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :----------: |
@@ -71,19 +71,42 @@ DOTA1.0
 |                  Strip R-CNN-S*          | 82.75 | le90  |   1x    |    1\*8    |     [strip_rcnn_s_fpn_1x_dota_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_1x_dota_le90.py)     | [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  |    MoCAE           |
 |                  StripNet-S + Roi_Trans      | 81.72 | le90  |   1x    |    1\*8    |   [strip_rcnn_s_roitrans_fpn_1x_dota](./configs/strip_rcnn/strip_rcnn_s_roitrans_fpn_1x_dota.py)   | [model]()  |                  |
 
+DOTA-v1.5
+
+|         Model         |  mAP  | Angle | lr schd | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download     | note                                                                                                                                                                         |
+| :----------------------: | :---: | :---: | :-----: | :------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
+| [O-RCNN](https://arxiv.org/abs/2108.05699) (1024,1024,200) | 45.60 | le90  |   1x    |    1*8     |  [oriented_rcnn_r50_fpn_1x_fair_le90](./configs/oriented_rcnn/oriented_rcnn_r50_fpn_1x_fair_le90.py)  |      -   | Prev. Best |
+| LSKNet_S  | 70.26 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_dota15_le90](./configs/lsknet/lsk_s_fpn_1x_dota15_le90.py)             |         [model](https://pan.baidu.com/s/1sXyi23PhVwpuMRRdwsIJlQ?pwd=izs8) \| [log](https://pan.baidu.com/s/1idHq3--oyaWK3GWYqd8brQ?pwd=zznm)         | |
+| Strip R-CNN-S | 72.27 | le90  |   1x    |    1*8     |            [strip_rcnn_s_fpn_1x_dota15_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_1x_dota15_le90.py)             |         [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  | |
+
+
 FAIR1M-1.0
 
 |         Model         |  mAP  | Angle | lr schd | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download     | note                                                                                                                                                                         |
 | :----------------------: | :---: | :---: | :-----: | :------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
 | [O-RCNN](https://arxiv.org/abs/2108.05699) (1024,1024,200) | 45.60 | le90  |   1x    |    1*8     |  [oriented_rcnn_r50_fpn_1x_fair_le90](./configs/oriented_rcnn/oriented_rcnn_r50_fpn_1x_fair_le90.py)  |      -   | Prev. Best |
-| LSKNet_S (1024,1024,200) | 47.87 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_dota_le90](./configs/lsknet/lsk_s_fpn_1x_dota_le90.py)             |         [model](https://pan.baidu.com/s/1sXyi23PhVwpuMRRdwsIJlQ?pwd=izs8) \| [log](https://pan.baidu.com/s/1idHq3--oyaWK3GWYqd8brQ?pwd=zznm)         | |
-| Strip R-CNN-S | 48.26 | le90  |   1x    |    1*8     |            [strip_rcnn_s_fpn_1x_dota_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_1x_dota_le90.py)             |         [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  | |
+| LSKNet_S (1024,1024,200) | 47.87 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_fair1m_le90](./configs/lsknet/lsk_s_fpn_1x_dota_le90.py)             |         [model](https://pan.baidu.com/s/1sXyi23PhVwpuMRRdwsIJlQ?pwd=izs8) \| [log](https://pan.baidu.com/s/1idHq3--oyaWK3GWYqd8brQ?pwd=zznm)         | |
+| Strip R-CNN-S | 48.26 | le90  |   1x    |    1*8     |            [strip_rcnn_s_fpn_1x_fair1m_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_1x_dota_le90.py)             |         [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  | |
+
+DIOR-R
+
+|         Model         |  mAP  | Angle | lr schd | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download     | note                                                                                                                                                                         |
+| :----------------------: | :---: | :---: | :-----: | :------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
+| [O-RCNN](https://arxiv.org/abs/2108.05699)  | 64.30 | le90  |   1x    |    1*8     |  [oriented_rcnn_r50_fpn_1x_dior_le90](./configs/oriented_rcnn/oriented_rcnn_r50_fpn_1x_dior_le90.py)  |      -   |  |
+| LSKNet_S  | 65.90 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_dior_le90](./configs/lsknet/lsk_s_fpn_1x_dota_le90.py)             |         [model](https://pan.baidu.com/s/1sXyi23PhVwpuMRRdwsIJlQ?pwd=izs8) \| [log](https://pan.baidu.com/s/1idHq3--oyaWK3GWYqd8brQ?pwd=zznm)         | |
+| Strip R-CNN-S | 68.70 | le90  |   1x    |    1*8     |            [strip_rcnn_s_fpn_1x_dior_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_1x_dior_le90.py)             |         [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  | |
+
+
+
+HRSC2016
 
 |                    Model                     | mAP(07) | mAP(12) | Angle | lr schd | Batch Size |                                      Configs                                      |                                                               Download                                                               |    note    |
 | :------------------------------------------: | :-----: | :-----: | :---: | :-----: | :--------: | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :--------: |
 | [RTMDet-l](https://arxiv.org/abs/2212.07784) |  90.60  |  97.10  | le90  |   3x    |     -      |                                         -                                         |                                                                  -                                                                   | Prev. Best |
 |  [ReDet](https://arxiv.org/abs/2103.07733)   |  90.46  |  97.63  | le90  |   3x    |    2\*4    | [redet_re50_refpn_3x_hrsc_le90](./configs/redet/redet_re50_refpn_3x_hrsc_le90.py) |                                                                  -                                                                   | Prev. Best |
 |                   Strip R-CNN-S                   |  90.60  |  98.70  | le90  |   3x    |    1\*8    |       [strip_rcnn_s_fpn_3x_hrsc_le90](./configs/strip_rcnn/strip_rcnn_s_fpn_3x_hrsc_le90.py)        | [model](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)  |            |
+
+
 
 ## Installation
 
