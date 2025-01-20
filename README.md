@@ -61,6 +61,7 @@ Imagenet 300-epoch pre-trained Strip R-CNN-T backbone: [Download](https://drive.
 Imagenet 300-epoch pre-trained Strip R-CNN-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
 
 Please note that the Exponential Moving Average (EMA) strategy was not utilized during the ImageNet pretraining stage.
+
 DOTA-v1.0
 
 |                           Model                            |  mAP  | Angle | lr schd | Batch Size |                                   Configs                                    |                                                               Download                                                               |     note     |
