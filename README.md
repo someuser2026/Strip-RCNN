@@ -66,9 +66,9 @@ StripNet backbone code is placed under mmrotate/models/backbones/, and the train
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://drive.google.com/uc?export=download&id=1Le4QoQPMUlFEssq7BFXGmaYfHoMktvju)
+Imagenet 300-epoch pre-trained Strip R-CNN-T backbone: [Download](https://drive.google.com/uc?export=download&id=1Le4QoQPMUlFEssq7BFXGmaYfHoMktvju)
 
-Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
+Imagenet 300-epoch pre-trained Strip R-CNN-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
 
 DOTA1.0
 
