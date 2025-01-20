@@ -48,19 +48,19 @@ If you like our work, don't hesitate to reach out! Let's work on it and see how 
 ## Abstract
 
 While witnessed with rapid development, remote sensing object detection remains challenging for detecting high aspect ratio objects.
-%
+
 This paper shows that large strip convolutions are good feature representation learners for remote sensing object detection and can detect objects of various aspect ratios well.
-%
+
 Based on large strip convolutions, we build a new network architecture called \methodname{}, which is simple, efficient, and powerful.
-%
+
 Unlike recent remote sensing object detectors that leverage large-kernel convolutions with square shapes, our \methodname{} takes advantage of sequential orthogonal large strip convolutions to capture spatial information.
-%
+
 In addition, we enhance the localization capability of remote-sensing object detectors by decoupling the detection heads and equipping the localization head with strip convolutions to better localize the target objects.
-%
+
 Extensive experiments on several benchmarks, for example DOTA, FAIR1M, HRSC2016, and DIOR, show that our \methodname{} can greatly improve previous work.
-%
+
 In particular, our 30M model achieves 82.75\% mAP on DOTA-v1.0, setting a new state-of-the-art record.
-%
+
 ## Introduction
 
 This repository is the official implementation of IJCV 2024 "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [arxiv](https://arxiv.org/abs/2403.11735)
