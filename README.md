@@ -33,16 +33,6 @@ Offical implementation of "Strip R-CNN: Large Strip Convolution for Remote Sensi
 
 we also add our config in https://github.com/zcablii/LSKNet
 
-# Citation
-If you like our work, don't hesitate to reach out! Let's work on it and see how far it would go!
-```bibtex
-@article{yuan2025strip,
-  title={Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection},
-  author={Yuan, Xinbin and Zheng, ZhaoHui and Li, Yuxuan and Liu, Xialei and Liu, Li and Li, Xiang and Hou, Qibin and Cheng, Ming-Ming},
-  journal={arXiv preprint arXiv:2501.03775},
-  year={2025}
-}
-```
 
 
 ## Abstract
@@ -109,8 +99,8 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 pip install -U openmim
 mim install mmcv-full
 mim install mmdet
-git clone https://github.com/zcablii/Large-Selective-Kernel-Network.git
-cd Large-Selective-Kernel-Network
+git clone https://github.com/YXB-NKU/Strip-R-CNN.git
+cd Strip-R-CNN
 pip install -v -e .
 ```
 
@@ -126,17 +116,6 @@ We provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tutorials f
 - [useful tools](docs/en/tutorials/useful_tools.md)
 
 
-
-# LSKNet for Remote Sensing Segmentation
-
-We further extend our work to segmentation tasks on the Potsdam, Vaihingen, LoveDA, and UAVid datasets. Please visit [LSKNet + GeoSeg](https://github.com/zcablii/GeoSeg).
-To facilitate easy reproduction and swift initiation for beginners, we offer our prepared remote sensing segmentation datasets here.
-
--[Vaihingen](https://pan.baidu.com/s/1SjOaZ55rUlghoggBcV1GCA?pwd=rssg)
--[Potsdam](https://pan.baidu.com/s/1yihagJKRDs_9i2qrI2Lh4Q?pwd=rssg)
--[LoveDA](https://pan.baidu.com/s/1OkeOrVQ1kvoxF7zYCdKz1Q?pwd=rssg)
--[uavid](https://pan.baidu.com/s/1FEvaU41Ay6D5Js7QwD4CGQ?pwd=rssg)
-
 ## Acknowledgement
 
 MMRotate is an open source project that is contributed by researchers and engineers from various colleges and companies. We appreciate all the contributors who implement their methods or add new features, as well as users who give valuable feedbacks. We wish that the toolbox and benchmark could serve the growing research community by providing a flexible toolkit to reimplement existing methods and develop their own new methods.
@@ -145,29 +124,19 @@ MMRotate is an open source project that is contributed by researchers and engine
 
 If you use this toolbox or benchmark in your research, please cite this project.
 
+If you like our work, don't hesitate to reach out! Let's work on it and see how far it would go!
 ```bibtex
-@article{Li_2024_IJCV,
-  title={LSKNet: A Foundation Lightweight Backbone for Remote Sensing},
-  author={Li, Yuxuan and Li, Xiang and Dai, Yimain and Hou, Qibin and Liu, Li and Liu, Yongxiang and Cheng, Ming-Ming and Yang, Jian},
-  journal={International Journal of Computer Vision},
-  year={2024},
-  doi = {https://doi.org/10.1007/s11263-024-02247-9},
-  publisher={Springer}
-}
-
-@InProceedings{Li_2023_ICCV,
-    author    = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Ming-Ming and Yang, Jian and Li, Xiang},
-    title     = {Large Selective Kernel Network for Remote Sensing Object Detection},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {16794-16805}
+@article{yuan2025strip,
+  title={Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection},
+  author={Yuan, Xinbin and Zheng, ZhaoHui and Li, Yuxuan and Liu, Xialei and Liu, Li and Li, Xiang and Hou, Qibin and Cheng, Ming-Ming},
+  journal={arXiv preprint arXiv:2501.03775},
+  year={2025}
 }
 ```
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zcablii/LSKNet&type=Date)](https://star-history.com/#zcablii/LSKNet&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=YXB-NKU/Strip-R-CNN&type=Date)](https://star-history.com/#YXB-NKU/Strip-R-CNN&Date)
 ## License
 Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only.
 Any commercial use should get formal permission first.
