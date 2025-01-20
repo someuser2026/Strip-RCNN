@@ -57,18 +57,18 @@ In particular, our 30M model achieves 82.75\% mAP on DOTA-v1.0, setting a new st
 
 ## Introduction
 
-This repository is the official implementation of IJCV 2024 "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [arxiv](https://arxiv.org/abs/2403.11735)
+This repository is the official implementation of "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection" at: [arxiv](https://arxiv.org/abs/2501.03775)
 
 The master branch is built on MMRotate which works with **PyTorch 1.6+**.
 
-LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/test configure files are placed under configs/lsknet/ 
+StripNet backbone code is placed under mmrotate/models/backbones/, and the train/test configure files are placed under configs/strip_rcnn/ 
 
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_t_backbone-2ef8a593.pth)
+Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://drive.google.com/uc?export=download&id=1Le4QoQPMUlFEssq7BFXGmaYfHoMktvju)
 
-Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_s_backbone-e9d2e551.pth)
+Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
 
 DOTA1.0
 
