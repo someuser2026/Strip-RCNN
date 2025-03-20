@@ -26,7 +26,7 @@
 ![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
 
 
-![Strip-R-CNN](DotaStatis.png)
+![Strip-R-CNN](DotaStats.png)
 
 
 Offical implementation of "Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection"
