@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'DOTADataset'
-data_root = "code/data_processed/Global/Annotated/variants/obb/planet_full_beach_fine_tune_seed_0/" 
+data_root = "../code/data_processed/Global/Annotated/variants/obb/planet_full_beach_fine_tune_seed_0/" 
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
