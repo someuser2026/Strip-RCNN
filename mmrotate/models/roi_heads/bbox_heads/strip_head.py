@@ -264,7 +264,7 @@ class StripHead_(RotatedBBoxHead):
             if self.with_avg_pool:
                 x_reg_xy_wh = self.avg_pool(x_reg_xy_wh)
             x_reg_xy_wh = x_reg_xy_wh.flatten(1)
-            print(x_reg_xy_wh.shape)
+            # print(x_reg_xy_wh.shape)
         for fc in self.reg_xy_wh_fcs:
             x_reg_xy_wh = self.relu(fc(x_reg_xy_wh))
         # print(x_reg_xy_wh.shape)
