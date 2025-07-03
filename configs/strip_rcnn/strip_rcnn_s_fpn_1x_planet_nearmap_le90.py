@@ -4,7 +4,7 @@ _base_ = [
 ]
 
 angle_version = 'le90'
-gpu_number = 8
+gpu_number = 1
 # fp16 = dict(loss_scale='dynamic')
 model = dict(
     type='StripRCNN',
