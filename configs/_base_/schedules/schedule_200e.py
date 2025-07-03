@@ -1,7 +1,7 @@
 # evaluation
 evaluation = dict(interval=1, metric='mAP')
 # optimizer
-optimizer = dict(type='SGD', lr=0.0025, momentum=0.9, weight_decay=0.0001)
+optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)
 optimizer_config = dict(grad_clip=dict(max_norm=35, norm_type=2))
 # learning policy
 lr_config = dict(
@@ -9,6 +9,6 @@ lr_config = dict(
     warmup='linear',
     warmup_iters=500,
     warmup_ratio=1.0 / 2,
-    step=[8, 11])
+    step=[20, 40, 60, 80, 100])
 runner = dict(type='EpochBasedRunner', max_epochs=12)
 checkpoint_config = dict(interval=20, max_keep_ckpts=3)
