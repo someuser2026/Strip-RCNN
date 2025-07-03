@@ -6,3 +6,4 @@ mim install mmdet
 git clone https://github.com/YXB-NKU/Strip-R-CNN.git
 cd Strip-R-CNN
 pip install -v -e .
+pip install timm
