@@ -11,7 +11,8 @@ dist_params = dict(backend='nccl')
 log_level = 'INFO'
 load_from = None
 resume_from = None
-workflow = [('train', 1)]
+workflow = [('train', 1), ('val', 1)]
+evaluation = dict(save_best = True)
 
 # disable opencv multithreading to avoid system being overloaded
 opencv_num_threads = 0
