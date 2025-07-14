@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/datasets/planet_nearmap_dota.py', '../_base_/schedules/schedule_200e.py',
+    '../_base_/datasets/planet_full_beach_dota.py', '../_base_/schedules/schedule_200e.py',
     '../_base_/default_runtime.py'
 ]
 
@@ -16,7 +16,7 @@ model = dict(
         drop_rate=0.1,
         drop_path_rate=0.15,
         depths=[2,2,4,2],
-        init_cfg=dict(type='Pretrained', checkpoint="pretrained/stripnet_s.pth.tar"),
+        init_cfg=dict(type='Pretrained', checkpoint="/srv/scratch/z5428587/runs/obb/imgsz_256/mmdet/stripnet-r50-fpn-striphead-planet_nearmap_seed0/latest.pth"),
         norm_cfg=dict(type='SyncBN', requires_grad=True)),
     neck=dict(
         type='FPN',
@@ -131,7 +131,7 @@ img_norm_cfg = dict(
 train_pipeline = [
     dict(type='LoadImageFromFile'),
     dict(type='LoadAnnotations', with_bbox=True),
-    dict(type='RResize', img_scale=(256, 256)),
+    dict(type='RResize', img_scale=(1024, 1024)),
     dict(
         type='RRandomFlip',
         flip_ratio=[0.25, 0.25, 0.25],
@@ -151,7 +151,7 @@ train_pipeline = [
 ]
 
 data = dict(
-    samples_per_gpu=2,
+    samples_per_gpu=1,
     workers_per_gpu=2,
     train=dict(pipeline=train_pipeline, version=angle_version),
     val=dict(version=angle_version),

@@ -8,8 +8,8 @@ lr_config = dict(
     policy='step',
     warmup='linear',
     warmup_iters=500,
-    warmup_ratio=2,
-    step=[20, 40, 60, 80, 100])
+    warmup_ratio=1.0 / 3,
+    step=[20, 40, 60])
 runner = dict(type='EpochBasedRunner', max_epochs=200)
 checkpoint_config = dict(interval=20, max_keep_ckpts=2)
 # evaluation = dict(save_best = True)
