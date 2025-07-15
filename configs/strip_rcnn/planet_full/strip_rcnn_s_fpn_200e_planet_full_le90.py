@@ -1,6 +1,6 @@
 _base_ = [
-    '../_base_/datasets/planet_full_beach_dota.py', '../_base_/schedules/schedule_200e.py',
-    '../_base_/default_runtime.py'
+    '../../_base_/datasets/planet_full_beach_dota.py', '../../_base_/schedules/schedule_200e.py',
+    '../../_base_/default_runtime.py'
 ]
 
 angle_version = 'le90'
